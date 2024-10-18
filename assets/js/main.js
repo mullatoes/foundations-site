@@ -58,7 +58,7 @@
         doAnimations($animatingElements);
       });
       BasicSlider.slick({
-        autoplay: false,
+        autoplay: true,
         autoplaySpeed: 4000,
         dots: false,
         fade: true,
@@ -119,7 +119,7 @@ testimonial.slick({
     dots: true,
     infinite: true,
     speed: 1000,
-    autoplay:false,
+    autoplay:true,
     arrows: false,
     prevArrow: '<button type="button" class="slick-prev"><i class="ti-angle-left"></i></button>',
     nextArrow: '<button type="button" class="slick-next"><i class="ti-angle-right"></i></button>',

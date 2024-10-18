@@ -3516,7 +3516,19 @@ hr {
 
 /* line 32, /assets/scss/_h1-hero.scss */
 .slider-area {
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+
+.slide-1 {
   background-image: url(../img/hero/h1_hero.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+}
+.slide-2 {
+  background-image: url(../img/hero/h1_hero2.png);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;

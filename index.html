@@ -72,16 +72,23 @@
                             <div class="logo">
                                 <a href="index.html"><img src="assets/img/logo/logo.png" alt=""
                                                           style="width: 132px; height: 34px; object-fit: contain;"></a>
+
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10">
+
                             <div class="menu-wrapper  d-flex align-items-center justify-content-end">
                                 <!-- Main-menu -->
                                 <div class="main-menu d-none d-lg-block">
                                     <nav>
                                         <ul id="navigation">
                                             <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.html">About</a></li>
+                                            <li><a href="#">About US</a>
+                                                <ul class="submenu">
+                                                    <li><a href="about.html">Who We Are</a></li>
+                                                    <li><a href="board.html">Our Board</a></li>
+                                                </ul>
+                                            </li>
                                             <li><a href="program.html">latest causes</a></li>
                                             <li><a href="events.html">social events </a></li>
                                             <!--                                                <li><a href="blog.html">Blog</a>
@@ -118,7 +125,7 @@
     <div class="slider-area">
         <div class="slider-active">
             <!-- Single Slider -->
-            <div class="single-slider slider-height d-flex align-items-center">
+            <div class="single-slider slider-height d-flex align-items-center slide-1">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
@@ -131,20 +138,25 @@
                                 <div class="hero__btn">
                                     <!-- Container for buttons -->
                                     <div class="donation-container" style="display: flex; align-items: flex-end;">
+                                        <!-- Donate Button on the left -->
+                                        <a class="btn hero-btn mb-10" data-animation="fadeInLeft" data-delay=".8s"
+                                           style="margin-right: 15px;">
+                                            Support us today!
+                                        </a>
+
                                         <!-- PayPal and Cash App Links stacked on the right -->
-                                        <div class="donation-options" style="display: flex; flex-direction: column; align-self: flex-end;">
-                                            <!-- Donate Button on the left -->
-                                            <a class="btn hero-btn mb-10" data-animation="fadeInLeft" data-delay=".8s" style="margin-right: 15px;">
-                                                Support us today!
-                                            </a>
+                                        <div class="donation-options"
+                                             style="display: flex; flex-direction: column; align-self: flex-end;">
                                             <!-- PayPal Button -->
-                                            <a href="#" id="paypal-btn" class="cal-btn mb-10" data-animation="fadeInRight" data-delay="1.0s">
+                                            <a href="https://www.paypal.com/donate/?cmd=_s-xclick&hosted_button_id=AZZH6P34LRZWG"
+                                               class="cal-btn mb-10" data-animation="fadeInRight" data-delay="1.0s">
                                                 <i class="fab fa-paypal"></i>
                                                 <p>Donate with PayPal</p>
                                             </a>
 
                                             <!-- Cash App Button -->
-                                            <a href="#" id="cashapp-btn" class="cal-btn" data-animation="fadeInRight" data-delay="1.2s">
+                                            <a href="https://cash.app/$LosJewelsFOUNDATION" class="cal-btn"
+                                               data-animation="fadeInRight" data-delay="1.2s">
                                                 <i class="fas fa-money-bill-alt"></i>
                                                 <p>Donate with Cash App</p>
                                             </a>
@@ -157,7 +169,7 @@
                 </div>
             </div>
             <!-- Single Slider -->
-            <div class="single-slider slider-height d-flex align-items-center">
+            <div class="single-slider slider-height d-flex align-items-center slide-2">
                 <div class="container">
                     <div class="row">
                         <div class="col-xl-6 col-lg-6 col-md-8 col-sm-10">
@@ -383,7 +395,7 @@
                                 <a href="#"><h4>A hand for Children</h4></a>
                                 <ul>
                                     <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
-                                    <li><i class="fas fa-sort-amount-down"></i>18th Oct, 2024</li>
+                                    <li><i class="fas fa-sort-amount-down"></i>12th Nov, 2024</li>
                                     <li><i class="fas fa-map-marker-alt"></i>Monrovia, Liberia</li>
                                 </ul>
                             </div>
@@ -401,7 +413,7 @@
                                 <a href="#"><h4>Help for Children</h4></a>
                                 <ul>
                                     <li><i class="far fa-clock"></i>8:30 - 9:30am</li>
-                                    <li><i class="fas fa-sort-amount-down"></i>18th Oct, 2024</li>
+                                    <li><i class="fas fa-sort-amount-down"></i>01st Dec, 2024</li>
                                     <li><i class="fas fa-map-marker-alt"></i>Monrovia, Liberia</li>
                                 </ul>
                             </div>
@@ -413,11 +425,11 @@
     </section>
     <!-- Featured_job_end -->
     <!--? Team Ara Start -->
-    <div class="team-area pt-160 pb-160">
+    <!--<div class="team-area pt-160 pb-160">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-xl-6 col-lg-7 col-md-10 col-sm-10">
-                    <!-- Section Tittle -->
+                    &lt;!&ndash; Section Tittle &ndash;&gt;
                     <div class="section-tittle section-tittle2 text-center mb-70">
                         <span>Volunteers </span>
                         <h2>Our Expert Volunteer Always ready</h2>
@@ -428,8 +440,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team1.png" alt="">
-                            <!-- Blog Social -->
+                            <img src="assets/img/team/Volunteer/Becky%20Bochaberi.png" alt="">
+                            &lt;!&ndash; Blog Social &ndash;&gt;
                             <ul class="team-social">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="https://www.instagram.com/losjewelsfoundation/"><i
@@ -438,7 +450,7 @@
                             </ul>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="instructor.html">John Doe</a></h3>
+                            <h3><a href="instructor.html">Becky Bochaberi</a></h3>
                             <p>Volunteer leader</p>
                         </div>
                     </div>
@@ -446,8 +458,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team2.png" alt="">
-                            <!-- Blog Social -->
+                            <img src="assets/img/team/Rebbeca%20Opar.png" alt="">
+                            &lt;!&ndash; Blog Social &ndash;&gt;
                             <ul class="team-social">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="https://www.instagram.com/losjewelsfoundation/"><i
@@ -456,7 +468,7 @@
                             </ul>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="instructor.html">John Doe</a></h3>
+                            <h3><a href="instructor.html">Rebbeca Opar</a></h3>
                             <p>Volunteer leader</p>
                         </div>
                     </div>
@@ -464,8 +476,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team3.png" alt="">
-                            <!-- Blog Social -->
+                            <img src="assets/img/team/Marti%20Mattia.png" alt="">
+                            &lt;!&ndash; Blog Social &ndash;&gt;
                             <ul class="team-social">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="https://www.instagram.com/losjewelsfoundation/"><i
@@ -474,7 +486,7 @@
                             </ul>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="instructor.html">John Doe</a></h3>
+                            <h3><a href="instructor.html">Marti Mattia</a></h3>
                             <p>Volunteer leader</p>
                         </div>
                     </div>
@@ -482,8 +494,8 @@
                 <div class="col-lg-3 col-md-6 col-sm-6">
                     <div class="single-team mb-30">
                         <div class="team-img">
-                            <img src="assets/img/gallery/team4.png" alt="">
-                            <!-- Blog Social -->
+                            <img src="assets/img/team/Dianne%20Davis.png" alt="">
+                            &lt;!&ndash; Blog Social &ndash;&gt;
                             <ul class="team-social">
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="https://www.instagram.com/losjewelsfoundation/"><i
@@ -492,14 +504,14 @@
                             </ul>
                         </div>
                         <div class="team-caption">
-                            <h3><a href="instructor.html">John Doe</a></h3>
+                            <h3><a href="instructor.html">Dianne Davis</a></h3>
                             <p>Volunteer leader</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div>-->
     <!-- Team Ara End -->
     <!-- Want To work -->
     <section class="wantToWork-area ">
