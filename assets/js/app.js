@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     var cashAppBtn = document.getElementById('cashapp-btn');
     cashAppBtn.addEventListener('click', function(event) {
         event.preventDefault();
-        openPopup('https://cash.app/$LosJewelsFOUNDATION');
+        openPopup('https://cash.app/$fountainofhope');
     });
 
     // Function to open a pop-up window

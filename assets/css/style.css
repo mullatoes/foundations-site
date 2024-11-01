@@ -3489,28 +3489,28 @@ hr {
 
 /* line 18, /assets/scss/_h1-hero.scss */
 .slider-height2 {
-  height: 365px;
+  height: 100px;
   background-size: cover;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 18, /assets/scss/_h1-hero.scss */
   .slider-height2 {
-    height: 350px;
+    height: 100px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 18, /assets/scss/_h1-hero.scss */
   .slider-height2 {
-    height: 250px;
+    height: 100px;
   }
 }
 
 @media (max-width: 575px) {
   /* line 18, /assets/scss/_h1-hero.scss */
   .slider-height2 {
-    height: 250px;
+    height: 100px;
   }
 }
 
@@ -3648,6 +3648,7 @@ hr {
 /* line 113, /assets/scss/_h1-hero.scss */
 .slider-area2 {
   background-image: url(../img/hero/hero2.png);
+  height: 5px;
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -8322,5 +8323,3 @@ del {
 .switch-wrap {
   margin-bottom: 10px;
 }
-
-/*# sourceMappingURL=style.css.map */
